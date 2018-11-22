@@ -1,0 +1,8 @@
+subscription RectangleSub ($nodeId: ID!) {
+  rectangle(where: {mutation_in: UPDATED, node:{id: $nodeId}}) {
+    node{
+      x
+      y
+    }
+  }
+}

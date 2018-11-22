@@ -1,0 +1,5 @@
+mutation CreateRectangle {
+  createRectangle (data:{}) {
+    id
+  }
+}

@@ -1,0 +1,5 @@
+type Rectangle {
+  id: ID! @unique
+  x: Int
+  y: Int
+}

@@ -1,0 +1,5 @@
+query getRectangle($nodeId: ID!){
+  rectangle(where:{id: $nodeId}) {
+    id
+  }
+}

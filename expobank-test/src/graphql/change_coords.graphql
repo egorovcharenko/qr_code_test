@@ -1,0 +1,5 @@
+mutation UpdateRectangle($nodeId: ID!, $x: Int, $y: Int){
+  updateRectangle(where:{id:$nodeId}, data:{x: $x, y: $y}) {
+    id
+  }
+}
